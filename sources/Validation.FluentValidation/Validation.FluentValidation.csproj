@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>System.ComponentModel.Annotations.Validation.FluentValidation</AssemblyName>
+    <RootNamespace>System.ComponentModel.Annotations.Validation.FluentValidation</RootNamespace>
+    <PackageId>ComponentModel.Annotations.Validation.FluentValidation</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>FluentValidator adapter for System.ComponentModel.Annotations.Validation library.</Description>
+    <Copyright />
+    <PackageProjectUrl>https://github.com/andreykarinskiy/System.ComponentModel.Annotations.Validation.FluentValidation</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/andreykarinskiy/System.ComponentModel.Annotations.Validation.FluentValidation.git</RepositoryUrl>
+    <PackageTags>System.ComponentModel.Annotations.Validation;FluentValidation;Validation;Validator</PackageTags>
+    <RepositoryType>GIT</RepositoryType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ComponentModel.Annotations.Validation" Version="0.1.0-alpha0002" />
+    <PackageReference Include="FluentValidation" Version="8.5.0-preview4" />
+  </ItemGroup>
+
+</Project>
